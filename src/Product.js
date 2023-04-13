@@ -1,26 +1,23 @@
 import "./Product.css";
 
-function Product() {
+function Product({ id, title, price, rating, image }) {
   return (
-    <div>
-      <div className="product">
-        <div className="product_info">
-          <p>
-            Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag,
-            Water Repellent Fabric for Men and Women (Blue)
-          </p>
-          <p className="product_price">
-            <small>$</small>
-            <strong>30</strong>
-          </p>
-          <div className="product_rating">⭐️⭐️⭐️</div>
+    <div className="product">
+      <div className="product_info">
+        <p>{title}</p>
+        <p className="product_price">
+          <small>$</small>
+          <strong>{price}</strong>
+        </p>
+        <div className="product_rating">{Array(rating)
+        .fill()
+        .map((_, i)=>(
+           <p>⭐</p>
+        ) )}
         </div>
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg"
-          alt="product-img"
-        />
-        <button>Add to basket</button>
       </div>
+      <img src={image} alt="" />
+      <button>Add to basket</button>
     </div>
   );
 }

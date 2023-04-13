@@ -6,9 +6,9 @@ function Home() {
     <div className="home">
       <div className="home_container">
         <img
-          src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/638fb1ab1c12fa2313ecc058/f8cb28f5-e2c6-44a6-b8c9-b4cf17025329/bazar_logo-shaded+1.png"
           alt=""
-          className="home_img"
+          className="home_image"
         />
         <div className="home_row">
           <Product
@@ -59,7 +59,6 @@ function Home() {
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
-          <Product />
         </div>
       </div>
     </div>

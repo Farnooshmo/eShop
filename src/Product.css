@@ -9,10 +9,11 @@
   max-height: 400px;
   min-width: 100px;
   background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
   z-index: 1;
 }
 
-.product__rating {
+.product_rating {
   display: flex;
 }
 
@@ -31,11 +32,11 @@
   color: #111;
 }
 
-.product__price {
+.product_price {
   margin-top: 5px;
 }
 
-.product__info {
+.product_info {
   height: 100px;
   margin-bottom: 15px;
 }
