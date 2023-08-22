@@ -11,13 +11,13 @@ function Home() {
           className="home_image"
         />
         <div className="home_row">
-          <Product
+          {/* <Product
             id="12321341"
             title="Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)"
             price={11.96}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg"
-          />
+          /> */}
           <Product
             id="49538094"
             title="IFB 30 L Convection Microwave Oven (30BRC2, Black, With Starter Kit)"
