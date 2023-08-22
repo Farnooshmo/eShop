@@ -28,13 +28,13 @@ function Home() {
         </div>
 
         <div className="home_row">
-          <Product
+          {/* <Product
             id="4903850"
             title="All the Light we Cannot See: The Breathtaking World Wide Bestseller Paperback"
             price={199.99}
             rating={3}
             image="https://images-eu.ssl-images-amazon.com/images/I/514kNkerQ0L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
-          />
+          /> */}
           <Product
             id="23445930"
             title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
